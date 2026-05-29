@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ferretería "El Constructor"</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header><h1>🛠 Ferretería El Constructor</h1></header>
+    
+    <div class="tienda">
+        <div class="productos">
+            <h3>Catálogo</h3>
+            <button onclick="agregarAlCarrito('Martillo Profesional', 15)">Martillo - $15</button>
+            <button onclick="agregarAlCarrito('Taladro Percutor', 85)">Taladro - $85</button>
+            <button onclick="agregarAlCarrito('Caja de Clavos', 5)">Clavos - $5</button>
+            <button onclick="agregarAlCarrito('Cinta Métrica', 8)">Cinta - $8</button>
+        </div>
+
+        <div class="carrito">
+            <h3>Tu Pedido</h3>
+            <div id="lista-carrito"></div>
+            <div id="total">Total: $0</div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
